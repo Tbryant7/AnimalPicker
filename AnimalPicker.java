@@ -23,11 +23,18 @@ public class AnimalPicker {
                 System.out.println(" (\\,--------'()'--o");
                 System.out.println("  (_    ___    /~\"");
                 System.out.println("   (_)_)  (_)_)");
-            
+                
                 break;
-            } 
+            }
+            else if (choice.equals("cat")) {
+                // Print ASCII art for cat
+                System.out.println("  /\\_/\\");
+                System.out.println(" ( o.o )");
+                System.out.println("  > ^ <");
+                break;
+            }
 
-            
+
         }
 
 
