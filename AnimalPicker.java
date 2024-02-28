@@ -33,6 +33,14 @@ public class AnimalPicker {
                 System.out.println("  > ^ <");
                 break;
             }
+            else if (choice.equals("fish")) {
+                // Printed the ASCII are for fish
+                System.out.println("  ;,//;,    ,;/");
+                System.out.println(" o:::::::;;///");
+                System.out.println(">::::::::;;\\\\");
+                System.out.println("  ''\\\\\\\\\\'\" ';\\");
+                break;
+            }
             else {
                 // Printing the error message for if user doesnt enter cat of dog
                 System.out.println("Invalid option. Please choose either 'dog', 'cat'.");
