@@ -46,9 +46,8 @@ public class AnimalPicker {
                 System.out.println("Invalid option. Please choose either 'dog', 'cat'.");
             }
 
-
+            
         }
-
-
+        scanner.close();
     }
 }
